@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+}
+body{
+  font-family: 'Poppins';
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:72px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  list-style: none; 
+}
+button {
+  border:transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #D01C28;
+  height: 35px;
+  width: 100px;
+  color: white;
+}
+.logo img {
+  height: 60px;
+  width: 80px;
+}
+/* Hero-section */
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:calc(100vh - 72px);
+}
+.Hero-img img{
+  height: 400px;
+  width: 400px;
+}
+.Hero-01 {
+  display: flex;
+  gap: 20px;
+  max-width: 537px;
+  flex-direction: column;
+}
+.Hero-01 h1 {
+  font-size: 102px;
+  line-height: 85px;
+}
+.Hero-01 p{
+  font-size:16px;
+  line-height: 24px;
+  font-weight:600;
+  color:#5A5959;
+}
+.Hero-btn {
+  display: flex;
+  gap: 30px;
+}
+button.second-btn {
+  color: #5A5959;
+  background: white;
+  border: 2px solid #5A5959;
+}
+.hero-availability p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.hero-availability img {
+  height: 32px;
+}
